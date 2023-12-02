@@ -1,9 +1,10 @@
-fn main() {
-    let mut my_name= "Alessandra";
-    my_name = "John";
+fn add(num_one: i32, num_two: i32) -> i32 {
+    return num_one + num_two;
 }
 
-// By default, variables are immutable
+fn main() {
+    let foo = add(10, 5);
+}
 
-// Muttable variables must be explicitly declared 
-// with the mut key word.
+
+// All variables must have a data type
