@@ -29,6 +29,10 @@ fn main() {
     }
 
     println!("Total: {:?}", total);
+
+    let items = [1, 2, 3, 4, 5];
+    println!("{:?}", items);
+
 }
 
 
